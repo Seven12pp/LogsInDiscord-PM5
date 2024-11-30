@@ -1,0 +1,39 @@
+webhook-url: ""
+webhook-name: ""
+# ---------------------
+
+Message:
+  chat-message: true
+  title: "[💬] New Message"
+  content: "{Player} : "
+
+Leave:
+  on-leave: true
+  title: "[➖] New Leave"
+  content: "{Player} a quitté le serveur"
+
+Death:
+  on-death: true
+  title: "[💀] New Death"
+  content: "{Player} est mort"
+
+Join:
+  on-join: true
+  title: "[➕] Join"
+  content: "{Player} a rejoint le serveur"
+
+Command:
+  on-command: true
+  title: "[⚙️] New Command"
+  content: "{Player} a exécuté la commande : /"
+
+Death-Entity:
+  on-death-entity: false
+  title: "[☠️] New Death Entity"
+  content: "{Entity} est mort(e) dans le monde :"
+
+Give:
+  on-give: true
+  title: "[🎒] New give command"
+  content: "{Player} a exécuté la commande : /"
+

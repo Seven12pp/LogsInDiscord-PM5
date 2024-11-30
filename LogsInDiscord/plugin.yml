@@ -1,0 +1,5 @@
+name: LogsInDiscord
+version: 1.0.0
+main: LogsInDiscord\Seven12\Main
+api: [5.0.0]
+author: Seven12
